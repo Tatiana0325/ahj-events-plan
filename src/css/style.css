@@ -1,0 +1,79 @@
+.plan {
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-tasks {
+	width: 295px;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tasks .pinned .all-tasks {
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.task {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #cccccc;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.task:nth-child(n + 1) {
+	margin-top: 5px;
+}
+
+.text {
+	width: 200px;
+	word-wrap: break-word;
+	margin: 5px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.mark {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	border: 2px solid #cccccc;
+	border-radius: 50%;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.header {
+	display: block;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+	margin: 0px;
+}
+
+.not-tasks {
+	display: block;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: #ff0000
+}
+
+.vision {
+	display: none;
+}
